@@ -8,18 +8,18 @@
 
 ##  `Paths`
 
-> First of all - you only need to get the token calling the following
+> First of all - you only need to get the token by calling the following
 > API with a `POST` request without body since the user credentials are mocked
 
      - http://localhost:3000/api/login
 
-It will retrieve a json containing a key `message` and a value which is the token you'll need.
+It will retrieve a json containing a key `message` and a value which is the token you'll need - please copy that token so we can use it later.
 
     {
         "token": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9..."
     }
 
-To check if it works you just need to request to: `http://localhost:3000/api/posts` as a `POST`
+In order to check if it works you just need to request to: `http://localhost:3000/api/posts` as a `POST`
 
 It must return a FORBIDDEN message for the first - take it easy, it's correct.
 
