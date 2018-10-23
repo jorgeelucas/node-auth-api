@@ -20,7 +20,7 @@ app.post('/api/login', (req, res) => {
 		email: 'user@email.com'
 	};
 	jwt.sign({user}, 'secretKey', (err, token) => {
-        res.json({token});
+        res.json({token: 'Bearer ' + token});
     });
 });
 
