@@ -1,4 +1,4 @@
-## NODE WITH JWT - simple exemple
+## NODE WITH JWT - simple example
 
 > This is just a simple exemple of authorization with nodejs and JWT
 
